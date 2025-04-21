@@ -1,5 +1,10 @@
 # Wanted FB Api Calls
-A modern way to brute force an access to a Facebook page written in Bash. 
 
-You don't have to know the e-mail or the phone number of your victim. You just have to know the account ID and you have to choose your dictionary file. Despite the fact you don't have to looking for private informations with my script, there are disavantages.
-This tool is more a proof of concept than a real effective hacking tool. The multithreading isn't possible ( the parallelised jobs too ). You can only test approx 10 ~ 15 passwords per one account sequentially. Otherwise, the API will block the login feature and probably block your IP address. This script could be useful if you are looking for old and unused accounts with a weak password in order to use them as bot. Of course, you have to edit the code yourself in order to make this effective.
+You don't have to know the e-mail or the phone number of your victim. You just have to know the account ID and you have to choose your dictionary file. 
+
+Despite the fact you don't have to looking for private informations with my script, there are disavantages :
+- This tool is more a proof of concept than a hacking tool.
+- The multithreading isn't possible ( parallelised jobs too ).
+- You can only test approx 10 ~ 15 passwords per one account sequentially. Otherwise, the API will block the login feature and probably your IP address.
+
+<pre>usage : ./bruteForceFbGraphApi.sh -u ${UID} -d ${txt_dict} </pre>
