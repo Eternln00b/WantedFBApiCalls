@@ -1,4 +1,4 @@
-# Wanted FB Api Calls
+# Wanted Facebook Api Calls
 
 You don't have to know the e-mail or the phone number of your victim. You just have to know the account ID and you have to choose your dictionary file. 
 
